@@ -1,0 +1,63 @@
+#heading{
+    animation-name: grow;
+    animation-duration: 1s;
+}
+@keyframes grow {
+    30%{transform: scale(2,2)}
+}
+
+p {
+    font-weight: bolder;
+    text-align:left;
+}
+
+body{
+    background-color:blanchedalmond;
+    color:rgba(125, 12, 67, 0.845);
+    animation-name: change;
+    animation-duration: 2s;
+    animation-delay: 6s;
+}
+
+
+
+.pho1{
+    animation-name: rotate1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes rotate1{
+    100%{transform: rotateX(360deg)}
+}
+
+.pho2{
+    animation-name: rotate2;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes rotate2{
+    100%{transform: rotateX(360deg)}
+}
+
+.pho3{
+    animation-name: rotate3;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+@keyframes rotate3{
+    100%{transform: rotateX(360deg)}
+}
+
+h3{
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+@keyframes fade{
+
+    20%{opacity: 0;}
+}
